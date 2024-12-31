@@ -1,0 +1,14 @@
+repo1:
+  - changed-files:
+      - any-glob-to-any-file: "repo1/**"
+repo2:
+  - changed-files:
+      - any-glob-to-any-file: "repo2/**"
+repo3:
+  - changed-files:
+      - any-glob-to-any-file: "repo3/**"
+feature:
+  - head-branch: ["^feature", "feature"]
+
+release:
+  - head-branch: ["^release", "release"]
